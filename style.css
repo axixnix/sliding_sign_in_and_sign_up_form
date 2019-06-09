@@ -65,7 +65,7 @@ a {
   margin: 20px 0;
 }
 
-.social-container {
+.social-container a {
   border: 1px solid #ddd;
   border-radius: 50%;
   display: inline-flex;
@@ -74,4 +74,12 @@ a {
   margin: 0 5px;
   height: 40px;
   width: 40px;
+}
+
+.form-container input {
+  background: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
 }
