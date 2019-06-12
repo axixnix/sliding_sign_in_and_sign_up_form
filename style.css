@@ -119,3 +119,16 @@ button.ghost {
   height: 100%;
   transition: all 0.6s ease-in-out;
 }
+
+.sign-in-container {
+  left: 0;
+  width: 50%;
+  z-index: 2;
+}
+
+.sign-up-container {
+  left: 0;
+  width: 50%;
+  z-index: 1; /*makes sure that it is always beneath the sign in*/
+  opacity: 0;
+}
