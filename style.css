@@ -132,3 +132,14 @@ button.ghost {
   z-index: 1; /*makes sure that it is always beneath the sign in*/
   opacity: 0;
 }
+
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.6 ease-in-out;
+  z-index: 100;
+}
