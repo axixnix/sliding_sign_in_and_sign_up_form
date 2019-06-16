@@ -170,3 +170,12 @@ button.ghost {
   transform: translate(0);
   transition: transform 0.6 ease-in-out;
 }
+
+.overlay-right {
+  right: 0;
+  transform: translateX(0);
+}
+
+.overlay-left {
+  transform: translateX(-20%);
+}
