@@ -185,5 +185,19 @@ button.ghost {
 /*move signin to the right*/
 .container.right-panel-active .sign-in-container {
   /*styles .sign-in-container when .right-panel-active is added to .container*/
+  transform: translateX(
+    100%
+  ); /*a positive number moves right and a negative number moves left*/
+}
+
+/*move overlay to the left */
+.container.right-panel-active .overlay-container {
+  transform: translateX(-100%);
+}
+
+/*bring signup over signin*/
+.container.right-panel-active .sign-up-container {
   transform: translateX(100%);
+  opacity: 1;
+  z-index: 5;
 }
